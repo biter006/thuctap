@@ -36,4 +36,22 @@ Sau khi chuẩn hóa, NGƯỜI ĐẶT và NGƯỜI NHẬN đều liên kết v�
 
 ## 5. Sơ đồ ERD hoàn chỉnh
 
-![Sơ đồ ERD quản lý đơn đặt hàng](./Screenshot%202026-09-21%20112507.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/biter006/thuctap/main/Screenshot%202026-09-21%20112507.png" alt="Sơ đồ ERD quản lý đơn đặt hàng" width="100%">
+</p>
+
+[Mở sơ đồ ERD ở kích thước đầy đủ](https://github.com/biter006/thuctap/blob/main/Screenshot%202026-09-21%20112507.png)
+
+**Tóm tắt sơ đồ:**
+
+```text
+ĐƠN VỊ KHÁCH 1 ── N NGƯỜI ĐẶT ── N:M (ĐẶT) ── N HÀNG
+                     ĐẶT: Số ĐH, Ngày đặt, Số lượng
+
+ĐƠN VỊ KHÁCH 1 ── N NGƯỜI NHẬN
+
+NGƯỜI GIAO, NGƯỜI NHẬN, HÀNG và NƠI GIAO
+                  └── tham gia quan hệ GIAO
+                      GIAO: Số PG, Ngày giao, Số lượng, Đơn giá
+                      Thành tiền = Số lượng × Đơn giá
+```
