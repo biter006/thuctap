@@ -36,4 +36,4 @@ Sau khi chuẩn hóa, NGƯỜI ĐẶT và NGƯỜI NHẬN đều liên kết v�
 
 ## 5. Sơ đồ ERD hoàn chỉnh
 
-![Sơ đồ ERD quản lý đơn đặt hàng](./erd_quan_ly_don_dat_hang.svg)
+![Sơ đồ ERD quản lý đơn đặt hàng](Screenshot 2026-09-21 112507.png)
